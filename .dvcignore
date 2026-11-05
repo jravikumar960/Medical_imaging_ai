@@ -1,0 +1,14 @@
+.venv/
+.venv-1/
+.venv-old/
+.venv-seg/
+.python310/
+venv/
+__pycache__/
+.pytest_cache/
+.dvc/cache/
+.torchxrayvision/
+web/node_modules/
+web/dist/
+.npm-cache/
+data/audit_log.csv

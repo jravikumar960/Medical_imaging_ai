@@ -1,0 +1,13 @@
+# Runtime dependencies for the Docker image's Streamlit CXR classifier only.
+# Keep versions aligned with requirements.txt; FastAPI/test tools and MONAI
+# segmentation dependencies are intentionally not installed in this image.
+streamlit==1.66.1
+torch==2.14.1
+torchvision==0.29.1
+torchxrayvision==1.5.7
+numpy==2.5.4
+pillow==13.0.0
+matplotlib==3.11.2
+pandas==3.1.0
+scikit-learn==1.9.1
+pydicom==3.0.2

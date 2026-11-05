@@ -1,0 +1,9 @@
+[project]
+name = "medical-imaging-ai"
+version = "0.1.0"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+norecursedirs = ["scripts", ".venv", ".venv-seg", ".venv-old", ".venv-1", "__pycache__", ".git", ".pytest_cache", "node_modules", ".npm-cache"]
+python_files = ["test_*.py"]
+python_functions = ["test_*"]

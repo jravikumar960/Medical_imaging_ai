@@ -1,0 +1,22 @@
+{
+  "schema": "medical-imaging-nifti-origin-orientation-review/v1",
+  "origin_record_sha256": "b17f4d956bc5372648dcb9c0efb22145d10248bd34cac976b07c8e6750466144",
+  "volume_sha256": "a502f7e81d6b3742f5100e501b4e80180264d00e9aa04dfee43d821b1c6b07e7",
+  "geometry_sha256": "5d3b380cd436250436a3f9cdd1a12856bafd25d08400ebc38b7ce1fe9f65c2d9",
+  "nifti_axis_codes": [
+    "R",
+    "A",
+    "S"
+  ],
+  "reviewer_id": "",
+  "reviewer_independent": false,
+  "laterality_verified": false,
+  "slice_direction_verified": false,
+  "physical_slice_direction": "",
+  "orientation_reference": "",
+  "orientation_method": "",
+  "reviewed_at": "",
+  "expires_at": "",
+  "review_notes": "",
+  "signature_hmac_sha256": ""
+}

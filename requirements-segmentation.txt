@@ -1,0 +1,16 @@
+# Install only in a separate segmentation environment, not the classifier .venv.
+# MONAI bundle metadata specifies torch 2.4.0, but that Windows wheel failed
+# to import here (fbgemm.dll dependency; upstream Windows fix is in 2.4.1).
+# This isolated environment verified the CPU patch release 2.4.1 instead.
+torch==2.4.1
+monai==1.4.0
+numpy==1.24.4
+nibabel==5.2.1
+pytorch-ignite==0.4.11
+tensorboard==2.17.0
+pytest==9.1.1
+fastapi==0.161.1
+uvicorn==0.54.0
+httpx==0.28.1
+python-multipart==0.0.20
+pydicom==3.0.2

@@ -1,0 +1,15 @@
+# Versions currently installed in the Windows Python 3.13 environment.
+streamlit==1.66.1
+torch==2.14.1
+torchvision==0.29.1
+torchxrayvision==1.5.7
+numpy==2.5.4
+pillow==13.0.0
+matplotlib==3.11.2
+pandas==3.1.0
+scikit-learn==1.9.1
+pytest==9.1.1
+pydicom==3.0.2
+fastapi==0.161.1
+httpx==0.28.1
+uvicorn==0.54.0
